@@ -21,20 +21,34 @@ init -> use this command inside of your project to turn it into a Git repository
 ## More complex commands
 
 git config –global user.name “[name]” ->sets author name
+
 git config –global user.email “[email address]” ->sets author email id
+
 git init [repository name] ->start new repository
+
 git clone [url] ->obtain a repository from an existing URL.
+
 git add [file] ->adds a file to the staging area.
+
 git commit -m “[ Type in the commit message]” ->records or snapshots the file permanently in the version history.
+
 git commit -a ->commits any files you’ve changed since then.&commits any files you’ve added
+
 git diff ->shows the file differences which are not yet staged.
+
 git diff –staged ->differences between the files in the staging area and the latest version present.
+
 git diff [first branch] [second branch] ->differences between the two branches mentioned.
+
 git reset [file] ->unstages the file, but it preserves the file contents.
+
 git reset [commit] ->undoes all the commits after the specified commit and preserves the changes locally.
+
 git reset –hard [commit] ->discards all history and goes back to the specified commit.
+
 git status ->command lists all the files that have to be committed.
-9 ) git rm [file] ->deletes the file from your working directory and stages the deletion.
+
+git rm [file] ->deletes the file from your working directory and stages the deletion.
 
 git log ->used to list the version history for the current branch.
 git log –follow[file] ->lists version history for a file, including the renaming of files also.
